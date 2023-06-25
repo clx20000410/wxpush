@@ -90,16 +90,16 @@ const USER_CONFIG = {
         },
         {
           type: "生日",
-          name: "cyx",
-          year: "2001",
-          date: "11-28",
+          name: "",
+          year: "",
+          date: "",
           isShowAge: true,
         },
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: "love_day", date: "2023-03-14" },
+        // { keyword: "love_day", date: "2022-09-09" },
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -186,34 +186,6 @@ const USER_CONFIG = {
       //   },
     },
 
-    {
-      name: "cyx",
-      id: "o_nWa5kg8PvBPXEvppfBjSlvp34g",
-      useTemplateId: "GRDkkemH1YKx-QxnKQ7SFkSE1aO5baerUpY-t3HEBtc",
-      province: "江苏",
-      city: "扬州",
-      horoscopeDate: "11-28",
-      horoscopeDateType: "今日",
-      openUrl: "www.baidu.com",
-      festivals: [
-        {
-          type: "生日",
-          name: "clx",
-          year: "2000",
-          date: "04-10",
-          isShowAge: true,
-        },
-        {
-          type: "生日",
-          name: "cyx",
-          year: "2001",
-          date: "11-28",
-          isShowAge: true,
-        },
-      ],
-      customizedDateList: [{ keyword: "love_day", date: "2023-03-14" }],
-      courseSchedule: null,
-    },
     // 你可以不断按格式往下增加
     // ...
   ],
